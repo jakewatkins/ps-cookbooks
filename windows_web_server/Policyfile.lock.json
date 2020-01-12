@@ -1,0 +1,51 @@
+{
+  "revision_id": "89444d6fb6a1da5aa15805d805f4fd1fe92d9bb288ef35abf372b1d55b39654f",
+  "name": "windows_web_server",
+  "run_list": [
+    "recipe[windows_web_server::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "windows_web_server": {
+      "version": "0.1.0",
+      "identifier": "53e323c9f0bd85f2c52f0f7032be98a35e6001cf",
+      "dotted_decimal_identifier": "23612165918342533.68333750277124798.167827430441423",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": "https://github.com/jakewatkins/deploying-chef-cookbooks.git",
+        "revision": "1375ef977503b786ebe4a48cc757caa20f2a0f4f",
+        "working_tree_clean": false,
+        "published": true,
+        "synchronized_remote_branches": [
+          "origin/master"
+        ]
+      },
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "windows_web_server",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "windows_web_server (0.1.0)": [
+
+      ]
+    }
+  }
+}
