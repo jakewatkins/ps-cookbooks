@@ -18,4 +18,4 @@ chef_version '>= 14.0'
 #
 # source_url 'https://github.com/<insert_org_here>/linux_base'
 depends 'git', '~> 10.0.0'
-depends 'chef-cliemnt', '~> 11.4.0'
+depends 'chef-client', '~> 11.4.0'
