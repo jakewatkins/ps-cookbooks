@@ -1,1 +1,1 @@
-default['motd'] = 'this is a chef recipe'
+default['linux_base']['motd'] = 'this is a chef recipe'

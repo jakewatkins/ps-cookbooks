@@ -1,12 +1,12 @@
 #
-# Cookbook:: linux-base
+# Cookbook:: windows_base
 # Spec:: default
 #
-# Copyright:: 2020, The Authors, All Rights Reserved.
+# Copyright:: 2019, The Authors, All Rights Reserved.
 
 require 'spec_helper'
 
-describe 'linux-base::default' do
+describe 'windows_base::default' do
   context 'When all attributes are default, on Ubuntu 18.04' do
     # for a complete list of available platforms and versions see:
     # https://github.com/chefspec/fauxhai/blob/master/PLATFORMS.md

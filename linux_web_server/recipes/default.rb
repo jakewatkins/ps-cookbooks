@@ -4,13 +4,6 @@
 #
 # Copyright:: 2019, jkw, All Rights Reserved.
 
-#update everything
-execute "update-upgrade" do
-    command "sudo apt-get update && sudo apt-get upgrade -y"
-    action :run
-end
-
-
 #install the unzip package
 package 'unzip' do
     action :install

@@ -22,10 +22,12 @@ verifier:
 
 platforms:
   - name: ubuntu-18.04
-  - name: centos-7
+ # - name: centos-7
 
 suites:
   - name: default
+    run_list:
+      -recipe[linux_base::default]
     verifier:
       inspec_tests:
         - test/integration/default
